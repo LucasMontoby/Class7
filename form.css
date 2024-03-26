@@ -1,0 +1,58 @@
+body{
+    background-color: blanchedalmond;
+}
+
+header{
+    margin-left: 1%;
+}
+
+h1{
+    font-size: 40px;
+    background-color: burlywood;
+    border-radius: 4px;
+    text-align: center;
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight:700;
+    font-size: 25px;
+    color:black
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+button{
+    background-color: coral;
+    color: black;
+
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+/* Respoonsive Tablet y Compu */
+
+@media(min-width: 501px){ 
+    .container{
+        background-color: chocolate;
+    }
+}
+
+@media(min-width: 801px){
+    .container{
+        background-color: rgb(214, 233, 47);
+    }
+}
